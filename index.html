@@ -11,13 +11,15 @@
 <body>
     <div class="container">
     <h1>World Clock</h1>
-    <select>
+    <select id="cities">
         <option value="">Select a city...</option>
-        <option value=""> New York </option>
-        <option value=""> London </option>
-        <option value=""> Los Angeles </option>
+        <option value="America/New_York"> New York </option>
+        <option value="Europe/London"> London </option>
+        <option value="America/Los_Angeles"> Los Angeles </option>
+        <option value="Europe/Paris"> Paris </option>
     </select>
 
+    <div id="city">
     <div class="cities" id="los-angeles">
         <div>
         <h2>Los Angeles 🌤️</h2>
@@ -32,6 +34,7 @@
     </div>
         <div class="time"></div>
     </div>
+</div>
 </div>
     <footer>This project was Coded with ❤️ by <strong>Rebecca Thombs</strong> and is 
         <a href="https://github.com/x0xBecka26x0x/World-Clock-Project" target="_blank"> 
